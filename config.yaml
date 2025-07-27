@@ -1,0 +1,16 @@
+binance_api_key: "ISI_API_KEY"
+binance_api_secret: "ISI_API_SECRET"
+
+telegram_token: "ISI_TELEGRAM_TOKEN"
+telegram_chat_id: "ISI_CHAT_ID"
+
+pair: "BTCUSDT"
+timeframe: "5m"
+trade_amount: 0.001
+
+default_tp: 3
+default_sl: 2
+
+strategy:
+  rsi_buy: 30
+  rsi_sell: 70
