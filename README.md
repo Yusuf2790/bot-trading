@@ -8,3 +8,4 @@ pair via tombol + command /pair - Tombol ?? Cek Harga (RSI, MACD,
 Bollinger)
 - Ganti API Binance langsung via /api set
 # Bot-Trading
+# bot-trading
