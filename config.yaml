@@ -4,9 +4,11 @@ binance_api_secret: "ISI_API_SECRET"
 telegram_token: "ISI_TELEGRAM_TOKEN"
 telegram_chat_id: "ISI_CHAT_ID"
 
-pair: "BTCUSDT"
+pair: "XRPUSDT"
 timeframe: "5m"
-trade_amount: 0.001
+
+trade_percent: 0      # 0 = pakai nominal USDT, >0 = pakai % saldo
+trade_usdt: 10        # default 10 USDT jika trade_percent=0
 
 default_tp: 3
 default_sl: 2
